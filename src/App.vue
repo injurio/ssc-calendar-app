@@ -11,7 +11,20 @@
     </div>
     <router-view/>
   </div> -->
+  <div id="app">
+    <Agenda />
+  </div>
 </template>
+
+<script>
+import Agenda from './components/Agenda'
+export default {
+  name: 'app',
+  components: {
+    Agenda
+  }
+}
+</script>
 
 <style lang="scss">
 #app {
